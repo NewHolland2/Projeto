@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_lista_produto_voltar_para_tela_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_voltando_para_tela_login"
+        android:title="Voltar para a tela de login"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_lista_produto_perfil_do_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_account_perfil"
+        android:title="Perfil do Usuário"
+        app:showAsAction="ifRoom"/>
+</menu>

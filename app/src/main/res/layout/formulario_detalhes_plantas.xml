@@ -1,0 +1,31 @@
+<!-- dialog_input.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editCarreiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Carreiro"/>
+
+    <EditText
+        android:id="@+id/editEspacamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Espaçamento de Plantas"/>
+
+    <EditText
+        android:id="@+id/editComprimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comprimento do Carreiro"/>
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"/>
+</LinearLayout>

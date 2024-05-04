@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/activity_detalhes_item_nome"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_width="0dp"
+        android:textSize="28sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:gravity="top"
+        android:id="@+id/activity_detalhes_item_cpf"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_detalhes_item_nome"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="094.943.709.37" />
+
+    <TextView
+        android:gravity="top"
+        android:id="@+id/activity_detalhes_item_numerotelefone"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_detalhes_item_cpf"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="47 996778715" />
+
+    <TextView
+        android:gravity="top"
+        android:id="@+id/activity_detalhes_item_email"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_detalhes_item_numerotelefone"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@tools:sample/lorem/rando" />
+
+    <TextView
+        android:gravity="top"
+        android:id="@+id/activity_detalhes_item_descricao"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_detalhes_item_email"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@tools:sample/lorem/rando" />
+
+    <Button
+        android:id="@+id/activity_perfil_usuario_botao_sair_do_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:backgroundTint="#F44336"
+        android:text="Retornar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_detalhes_item_descricao"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
